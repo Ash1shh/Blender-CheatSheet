@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+    @apply p-5 lg:p-16 lg:px-40 grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 md:grid-cols-2
+}
+
+.one {
+    @apply p-2 pt-8
+}
+
+.two {
+    @apply text-2xl text-violet-900 bg-violet-200/80 font-bold p-2 pb-6
+}
+
+.three {    
+    @apply text-violet-500
+}
+
+.four {
+    @apply grid overflow-x-scroll lg:overflow-hidden
+}
+
+.five {
+    @apply grid grid-cols-2 py-2 px-2 text-xl bg-violet-50 space-x-2
+}
+
+.six {
+    @apply text-violet-800 italic 
+}
+
+.seven {
+    @apply text-emerald-600 font-semibold
+}
+
+.t {
+    @apply p-2 flex flex-col items-center border-2 border-x-black border-y-black text-emerald-600 font-semibold
+}
